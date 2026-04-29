@@ -1,5 +1,4 @@
 # 📝✨ Full Stack Todo List App  
-
 ---
 
 ## 🌈 Hello coders 👋  
@@ -23,6 +22,17 @@ It lets users securely manage their tasks with authentication and smooth API int
 
 ---
 
+## 🌍 Live Demo  
+
+| Service   | Link |
+|----------|------|
+| 🚀 Frontend | https://simple-todolist-rho.vercel.app |
+| ⚙️ Backend | https://todolist-6be2.onrender.com |
+
+> ⚠️ Backend is hosted on Render (free tier), so first request may take a few seconds due to cold start.
+
+---
+
 ## ✨ Features  
 
 - 🔐 User authentication (Register & Login)  
@@ -33,7 +43,8 @@ It lets users securely manage their tasks with authentication and smooth API int
 - ✏️ Edit/update tasks  
 - 📋 View all tasks  
 - 🚫 Protected routes  
-- ⚡ Loading & error handling  
+- ⚡ Loading & error handling
+- 🌍 Deployed on Vercel & Render
 
 ---
 
@@ -69,6 +80,12 @@ cd frontend
 npm install  
 npm start  
 ```
+
+### 🌐 Environment Variable  
+
+Create a `.env` file in frontend:
+
+REACT_APP_API_URL=http://127.0.0.1:8000
 
 ### 🧠 Backend  
 
@@ -123,4 +140,4 @@ https://github.com/adhirasuma
 ## 💬 Final Thought  
 
 This project may look simple, but it carries a lot of learning behind it — from basic CRUD to handling authentication flows.  
-Still growing, still improving 🚀  
+Always learning, always improving  🚀  

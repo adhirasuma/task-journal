@@ -31,7 +31,7 @@ function Login({refreshAuth}) {
     window.location.href = "/todolist";
     }
     catch(error){
-        setError("Logout failed")
+        setError("Login failed")
     }
     finally{
         setLoading(false)

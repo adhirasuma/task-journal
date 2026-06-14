@@ -42,17 +42,17 @@ The application allows users to securely create, update, and manage their daily 
 <table>
 <tr>
 <td align="center">
-<img src="screenshots/login-dark.png" width="300"><br>
+<img src="screenshots/dark-login.png" width="300"><br>
 <b>Login Page</b>
 </td>
 
 <td align="center">
-<img src="screenshots/journal-dark.png" width="300"><br>
+<img src="screenshots/dark-journal.png" width="300"><br>
 <b>Task Journal</b>
 </td>
 
 <td align="center">
-<img src="screenshots/register-dark.png" width="300"><br>
+<img src="screenshots/dark-register.png" width="300"><br>
 <b>Task Management</b>
 </td>
 </tr>
@@ -65,17 +65,17 @@ The application allows users to securely create, update, and manage their daily 
 <table>
 <tr>
 <td align="center">
-<img src="screenshots/login-light.png" width="300"><br>
+<img src="screenshots/light-login.png" width="300"><br>
 <b>Login Page</b>
 </td>
 
 <td align="center">
-<img src="screenshots/journal-light.png" width="300"><br>
+<img src="screenshots/light-journal.png" width="300"><br>
 <b>Task Journal</b>
 </td>
 
 <td align="center">
-<img src="screenshots/register-light.png" width="300"><br>
+<img src="screenshots/light-register.png" width="300"><br>
 <b>Task Management</b>
 </td>
 </tr>

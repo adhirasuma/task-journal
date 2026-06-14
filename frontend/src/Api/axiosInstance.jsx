@@ -1,5 +1,7 @@
 import axios from "axios";
+
 console.log("API URL:", process.env.REACT_APP_API_URL);
+
 const api = axios.create({
   baseURL:process.env.REACT_APP_API_URL,
 });
@@ -22,7 +24,7 @@ api.interceptors.response.use(
         const refresh = localStorage.getItem("refresh");
 
         const res = await axios.post(
-          "http://127.0.0.1:8000/api/auth/token/refresh/",
+          `${process.env.REACT_APP_API_URL}/api/auth/token/refresh/`,
           { refresh }
         );
 
